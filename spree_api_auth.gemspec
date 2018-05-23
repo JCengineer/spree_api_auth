@@ -2,10 +2,10 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_api_auth'
-  s.version     = '0.2.1'
+  s.version     = '0.2.2'
   s.summary     = "Spree's Authenticattion API"
   s.description = "Spree's Authenticattion API"
-  s.required_ruby_version = '>= 1.8.7'
+  s.required_ruby_version = '>= 2.2.7'
 
   s.author    = 'Masahiro Saito'
   s.email     = 'camelmasa@gmail.com'
@@ -16,10 +16,10 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '2.4.1'
-  s.add_dependency 'spree_api', '2.4.1'
+  s.add_dependency 'spree_core', '3.4.5'
+  s.add_dependency 'spree_api', '3.4.5'
 
-  s.add_development_dependency 'capybara', '1.0.1'
+  s.add_development_dependency 'capybara', '2.18.0'
   s.add_development_dependency 'factory_girl', '~> 2.6.4'
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'rspec-rails',  '~> 2.9'
